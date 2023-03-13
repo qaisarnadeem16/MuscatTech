@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import style from '../../styles/admin.module.css'
 import  { useRouter } from 'next/router';
-import {login} from '../Firebase/Auth'
+import {login} from '../../Firebase/Auth'
 
 // type Login={
 //     email: string;

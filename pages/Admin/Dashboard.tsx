@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { addDoc, collection, deleteDoc, doc, getDocs } from 'firebase/firestore';
-import { auth, db, storage } from '../Firebase/ConfiqFirebase'
+import { auth, db, storage } from '../../Firebase/ConfiqFirebase'
 import { deleteObject, getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import style from '../../styles/admin.module.css'
 import { Container, Table, Button, Modal, Toast } from 'react-bootstrap';
 import { useRouter } from 'next/router';
-import { logout } from '../Firebase/Auth';
+import { logout } from '../../Firebase/Auth';
 import Link from 'next/link';
 
 interface Todo {

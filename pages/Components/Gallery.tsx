@@ -4,7 +4,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import { collection, getDocs } from 'firebase/firestore';
-import {db, } from '../Firebase/ConfiqFirebase'
+import {db, } from '../../Firebase/ConfiqFirebase'
 import { Container } from 'react-bootstrap';
 import { toast } from 'react-toastify';
 

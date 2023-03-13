@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import { Card, Container } from 'react-bootstrap';
 import { collection, getDocs } from 'firebase/firestore';
-import {db, } from '../Firebase/ConfiqFirebase'
+import {db, } from '../../Firebase/ConfiqFirebase'
 
 
 interface Todo {

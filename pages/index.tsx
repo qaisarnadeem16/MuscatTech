@@ -1,8 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-
-
-import styles from '../styles/Home.module.css'
 import Header from './Components/Header'
 import Headings from './Components/Headings'
 import HeroSection from './Components/HeroSection'
@@ -21,13 +18,15 @@ import SellProducts from './Components/SellProducts'
 const Home: NextPage = () => {
   return ( <>
     
-  
+    <Head>
+        <title>Muscat AC Techancian</title>
+        <link rel="icon" type="image/png" href="./favicon.png" />
+      </Head>
    <TopBar/>
    <Header/>
    <HeroSection/>
    <Headings  head1='Services' head2='Our Services'/>
    <Services/>
-   
    <Headings  head1='Gallery' head2='Our Work'/>
    <Gallery/>
    <Headings  head1='Available' head2='For Sell'/>
