@@ -7,6 +7,7 @@ import { Container, Table, Button, Modal, Toast } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify'
 import { logout } from '../../Firebase/Auth';
+import Image from 'next/image';
 
 
 interface Todo {
@@ -155,7 +156,7 @@ const GalleryImg = () => {
                         <tbody>
                             {todoData.map((todo) => (
                                 <tr key={todo.id}>
-                                    <td><img src={todo.imageUrl} alt="" width='100px' /></td>
+                                    <td><Image src={todo.imageUrl} alt="" width={100} height={100} /></td>
                                     <td> <Button variant="danger" onClick={() => deleteTodo(todo.id, todo.imageUrl)}> Delete </Button></td>
                                 </tr>
                             ))}

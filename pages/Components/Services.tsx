@@ -93,7 +93,7 @@ const Services = () => {
               style={{width: '100px', height: '100px'}}>
                <Image src={range} alt=""/>
             </div>
-            <h4 className="font-weight-bold m-0" >Cooking Rage</h4>
+            <h4 className="font-weight-bold m-0" >Cooking Range</h4>
           </div>
         </Link>
 

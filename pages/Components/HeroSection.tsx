@@ -13,77 +13,77 @@ import { Carousel } from 'react-responsive-carousel';
 
 const HeroSection = () => {
   return (
-   <>
-    <Container fluid className='position-relative'>
-    <Carousel showStatus={false}>
-    
-        <div className='sliderImg'>
-        <Image
-        className="d-block image-responsive" 
-          src={s3}
-          alt="First slide"
-          fill
-        />
-      </div>
-   
-   
-      <div className='sliderImg'>
-        <Image
-        className="d-block" 
-          src={s2}
-          alt="First slide"
-          fill
-        />
-      </div>
-     
+    <>
+      <Container fluid className='position-relative'>
+        <Carousel showStatus={false}>
 
-      <div className='sliderImg'>
-        <Image
-        className="d-block" 
-          src={s1}
-          alt="First slide"
-          fill
-        />
-      </div>
-    
-  
-      <div className='sliderImg'>
-        <Image
-        className="d-block" 
-          src={s4}
-          alt="First slide"
-          fill
-        />
-      </div>
-     
-    
-      <div className='sliderImg'>
-        <Image
-        className="d-block" 
-          src={s5}
-          alt="First slide"
-          fill
-        />
-      </div>
- 
-      <div className='sliderImg'>
-        <Image
-        className="d-block" 
-          src={s6}
-          alt="First slide"
-          fill
-        />
-      </div>
-    
-    </Carousel>
-    {/* <div className="position-absolute top-0 start-50 mt-5">
+          <div className='sliderImg'>
+            <Image
+              className="d-block image-responsive"
+              src={s3}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+
+          <div className='sliderImg'>
+            <Image
+              className="d-block"
+              src={s2}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+
+          <div className='sliderImg'>
+            <Image
+              className="d-block"
+              src={s1}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+
+          <div className='sliderImg'>
+            <Image
+              className="d-block"
+              src={s4}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+
+          <div className='sliderImg'>
+            <Image
+              className="d-block"
+              src={s5}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+          <div className='sliderImg'>
+            <Image
+              className="d-block"
+              src={s6}
+              alt="First slide"
+              fill
+            />
+          </div>
+
+        </Carousel>
+        {/* <div className="position-absolute top-0 start-50 mt-5">
     <Image src={profile} alt="Second slide"  width={50}  />
     </div> */}
-    </Container>
-   
-  
+      </Container>
 
-   </>
+
+
+    </>
   )
 }
 
